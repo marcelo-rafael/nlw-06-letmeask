@@ -1,7 +1,7 @@
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+import { Home } from './Pages/Home';
+
 function App() {
-  // eslint-disable-next-line react/react-in-jsx-scope
-  return <h1>Marcelo</h1>;
+  return <Home />;
 }
 
 export default App;

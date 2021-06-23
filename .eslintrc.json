@@ -3,9 +3,15 @@
     "browser": true,
     "es2021": true
   },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "extends": [
+    "eslint:recommended",
     "plugin:react/recommended",
-    "airbnb",
+    "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:prettier/recommended"
   ],
@@ -18,39 +24,15 @@
     "sourceType": "module"
   },
   "plugins": [
-    "react",
-    "@typescript-eslint",
     "react-hooks",
-    "prettier"
+    "react",
+    "@typescript-eslint"
   ],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "warn",
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [
-          ".tsx"
-        ]
-      }
-    ],
-    "import/prefer-default-export": "off",
-    "camelcase": "off",
-    "@typescript-eslint/ban-types": "off",
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        "ts": "never",
-        "tsx": "never"
-      }
-    ],
-    "no-use-before-define": "off",
-    "prettier/prettier": "error"
-  },
-  "settings": {
-    "import/resolver": {
-      "typescript": {}
-    }
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 }
