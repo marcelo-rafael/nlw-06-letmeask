@@ -1,6 +1,5 @@
 module.exports = {
-  singleQuote: true,
-  trailingComma: 'none',
-  arrowParens: 'avoid',
-  semi: true,
+  singleQuote: true,// Força utilização de aspas simples
+  trailingComma: 'none',// Força utilização de aspas simples
+  arrowParens: 'avoid',// Força utilização de aspas simples
 }

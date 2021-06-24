@@ -48,7 +48,8 @@
     flex-direction: column;
     width: 100%;
     max-width: 320px;
-    align-items: center;
+    align-items: stretch;
+    text-align: center;
 
     > img {
       align-self: center;
@@ -57,7 +58,7 @@
     h2 {
       font-size: 24px;
       margin: 64px 0 24px;
-      font-family: 'Poppins', sans-serif;
+      font-family: "Poppins", sans-serif;
     }
 
     form {
@@ -78,15 +79,15 @@
       }
     }
 
-  p {
-    font-size: 14px;
-    color: #737380;
-    margin-top: 16px
+    p {
+      font-size: 14px;
+      color: #737380;
+      margin-top: 16px;
 
-    a {
-      color: #e559f9;
+      a {
+        color: #e559f9;
+      }
     }
-  }
   }
 
   .create-room {
@@ -98,9 +99,8 @@
     color: #fff;
 
     display: flex;
-    align-items: center;
     justify-content: center;
-
+    align-items: center;
 
     cursor: pointer;
     border: 0;
@@ -125,7 +125,7 @@
     align-items: center;
 
     &::before {
-      content: '';
+      content: "";
       flex: 1;
       height: 1px;
       background: #a8a8b3;
@@ -133,11 +133,11 @@
     }
 
     &::after {
-      content: '';
+      content: "";
       flex: 1;
       height: 1px;
       background: #a8a8b3;
       margin-left: 16px;
     }
-}
+  }
 }
