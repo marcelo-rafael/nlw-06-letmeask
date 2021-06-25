@@ -37,19 +37,19 @@
 
 #### 🚀 Sobre o Projeto
 
-O Letmeask é uma plataforma que tem a proposta de resolver problemas de acúmulos de perguntas durante uma live, transmissão, etc. Com ela você pode criar salas privadas onde somente os que possuem o ID da sala podem acessar, os participantes podem fazer perguntas(desde que estejam logados com o Google), votar nas mesmas. Já o criador da sala pode demarcar as perguntas como respondidas, colocar foco, dentre outras funcionalidades.
+O Letmeask é uma plataforma que tem a proposta de resolver problemas de acumulo de perguntas durante uma live, transmissão, etc. Com ela você pode criar salas privadas onde somente os que possuem o ID da sala podem acessar, os participantes podem fazer perguntas(desde que estejam logados com o Google), votar nas mesmas. Já o criador da sala pode demarcar as perguntas como respondidas, colocar foco, dentre outras funcionalidades.
 
 ---
 
-#### :information_source: O que é Next Level Week?
+#### 🚀 O que é Next Level Week?
 
 O [NLW](https://nextlevelweek.com/inscricao/6) é uma semana prática com muito código, desafios, network e com um único objetivo: levá-lo ao próximo nível.
-Através do método da [Rocketseat](https://nextlevelweek.com/inscricao/1), você aprenderá novas ferramentas, tecnologias e descobrirá hacks que irão impulsionar sua carreira.
+Através do método da [Rocketseat](https://rocketseat.com.br/), você aprenderá novas ferramentas, tecnologias e descobrirá hacks que irão impulsionar sua carreira.
 Um evento online e totalmente gratuito que o ajudará a dar o próximo passo na sua evolução como desenvolvedor.
 
 ---
 
-#### ⚙️ Funcionalidades
+#### 📋 Funcionalidades
 
 - [x] Como participante
   - [x] Logar com sua conta do google.
@@ -77,24 +77,24 @@ Design feito por [Rebecca Gonzalez](https://dribbble.com/rebeccagonzalez)
 
 ---
 
-#### Web
+#### :computer:  Web
 
 <h4 align="center">
   <img alt="Letmeask" title="Letmeask" src=".github/home.png" width="700px" />
-  Tela inicial - letmeask
+  <p align="center">Tela inicial - letmeask<p>
 </h4>
 <h4 align="center">
   <img alt="Letmeask" title="Letmeask" src=".github/salas.png" width="700px" />
-  Tela de perguntas - letmeask
+  <p align="center">Tela de perguntas - letmeask<p>
 </h4>
 <h4 align="center">
   <img alt="Letmeask" title="Letmeask" src=".github/admin.png" width="700px" />
-  Tela Admin - letmeask
+  <p align="center">Tela Admin - letmeask<p>
 </h4>
 
 ---
 
-#### Mobile
+#### 📱 Mobile
 
 <h4 align="center">
   Em breve
@@ -102,24 +102,34 @@ Design feito por [Rebecca Gonzalez](https://dribbble.com/rebeccagonzalez)
 
 ---
 
-#### ⚔ Desafios para melhorar a aplicação
-
-  - [ ] Deixar o layout responsivo para mobile, tablet e Desktop
-  - [ ] CSS com Styled Components e Mobile First
-  - [ ] Ajustes no CSS
-  - [ ] Adicionar Autenticação com o Github
-  - [ ] Criar modal de encerrar sala
-  - [ ] Toast como notificação
-  - [ ] Theme dark na aplicação
-  - [ ] Switch para alterar os themes
-  - [ ] Save theme no localStorage
-  - [ ] Opção de PWA na Aplicação
-  - [ ] Test com Jest;
-  - [ ] Storybook para os component;
+#### :crossed_swords: Desafios para melhorar a aplicação
+- [ ] Criar documentação
+    - [ ] Vídeo de exemplo
+    - [x] Readme-me incrível
+    - [ ] Tecnologias usadas
+    - [x] Setup do projeto
+    - [x] Funcionalidades
+    - [ ] Screenshot das páginas
+ - [ ] Melhorar estilos
+    - [ ] Alguns ajustes para tornar o estilo igual ao layout
+    - [ ] Adicionar media queries
+    - [ ] Deixar o layout responsivo para mobile, tablet e Desktop
+    - [ ] CSS com Styled Components e Mobile First
+    - [ ] Switch para alterar os themes
+    - [ ] Theme dark na aplicação
+    - [ ] Criar modal de encerrar sala
+    - [ ] Toast como notificação
+    - [ ] Save theme no localStorage
+  - [ ] Funcionalidades
+    - [ ] Adicionar funcionalidade PWA
+    - [ ] Adicionar Autenticação com o Github
+  - [ ] Testar a aplicação
+    - [ ] Testes com Jest;
+    - [ ] Storybook para os component;
 
 ---
 
-#### 🛠 Tecnologias:
+#### :gear: Tecnologias:
 
 Este projeto foi desenvolvido utilizando as seguintes tecnologias:
 
@@ -146,7 +156,7 @@ Além disto é bom ter um editor para trabalhar com o código como [VSCode](http
 
 ---
 
-#### Clonando o repositório
+#### 👯 Clonando o repositório
 
 ```bash
 # Clone este repositório
@@ -156,7 +166,7 @@ $ git clone https://github.com/marcelo-rafael/nlw-06-letmeask
 $ cd nlw-06-letmeask
 ```
 
-#### Rodando a Aplicação
+#### 📁 Rodando a Aplicação
 
 ```bash
 # Instale as dependências
@@ -258,7 +268,7 @@ Depois que sua solicitação de pull request for mesclada, você pode excluir `y
 </div>
 ---
 
-#### **:page_with_curl: LICENÇA**
+##### 📝 LICENÇA
 
 Esse repositório está licenciado pela **MIT LICENSE**. Para mais informações detalhadas, leia o arquivo [LICENSE](./LICENSE) contido nesse repositório.
 
