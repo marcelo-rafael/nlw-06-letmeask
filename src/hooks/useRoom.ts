@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+
 import { database } from '../services/firebase';
 import { useAuth } from './useAuth';
 
@@ -42,7 +43,7 @@ export function useRoom(roomId: string) {
   useEffect(() => {
     const roomRef = database.ref(`rooms/${roomId}`);
 
-    roomRef.once('value', room => {
+    roomRef.on('value', room => {
       const databaseRoom = room.val();
       const firebaseQuestions: FirebaseQuestions = databaseRoom.questions ?? {};
 
@@ -61,6 +62,7 @@ export function useRoom(roomId: string) {
           };
         }
       );
+
       setTitle(databaseRoom.title);
       setQuestions(parsedQuestions);
     });
