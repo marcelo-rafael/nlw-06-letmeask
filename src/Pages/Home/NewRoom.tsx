@@ -40,8 +40,13 @@ export function NewRoom() {
           src={illustrationImg}
           alt="Ilustração simbolizando perguntas e respostas"
         />
-        <strong>Crie salas de Q&amp;A ao-vivo</strong>
-        <p>Tire dúvidas da sua audiência em tempo-real</p>
+        <strong>
+          Toda Pergunta tem <br />
+          uma resposta
+        </strong>
+        <p>
+          Aprenda e compartilhe conhecimento <br /> com outras pessoas
+        </p>
       </aside>
       <main>
         <div className="main-content">
@@ -57,7 +62,7 @@ export function NewRoom() {
             <Button type="submit">Criar sala</Button>
           </form>
           <p>
-            Quer em uma sala existente? <Link to="/">clique aqui</Link>
+            Quer entrar em uma sala existente? <Link to="/">clique aqui</Link>
           </p>
         </div>
       </main>

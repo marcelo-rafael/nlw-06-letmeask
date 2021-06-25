@@ -86,6 +86,7 @@ export function AdminRoom() {
                 {!question.isAnswered && (
                   <>
                     <button
+                      className="check-question"
                       type="button"
                       onClick={() => handleCheckQuestionAsAnswered(question.id)}
                     >
@@ -95,6 +96,7 @@ export function AdminRoom() {
                       />
                     </button>
                     <button
+                      className="highlight"
                       type="button"
                       onClick={() => handleHighlightQuestion(question.id)}
                     >
@@ -103,6 +105,7 @@ export function AdminRoom() {
                   </>
                 )}
                 <button
+                  className="delete-question"
                   type="button"
                   onClick={() => handleDeleteQuestion(question.id)}
                 >

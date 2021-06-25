@@ -4,6 +4,7 @@ import { useHistory } from 'react-router-dom';
 import illustrationImg from '../../assets/illustration.svg';
 import logoImg from '../../assets/logo.svg';
 import googleIconImg from '../../assets/google-icon.svg';
+import logInImg from '../../assets/log-in.svg';
 
 import { Button } from '../../components/Button';
 import { useAuth } from '../../hooks/useAuth';
@@ -50,8 +51,13 @@ export function Home() {
           src={illustrationImg}
           alt="Ilustração simbolizando perguntas e respostas"
         />
-        <strong>Crie salas de Q&amp;A ao-vivo</strong>
-        <p>Tire dúvidas da sua audiência em tempo-real</p>
+        <strong>
+          Toda Pergunta tem <br />
+          uma resposta
+        </strong>
+        <p>
+          Aprenda e compartilhe conhecimento <br /> com outras pessoas
+        </p>
       </aside>
       <main>
         <div className="main-content">
@@ -68,7 +74,10 @@ export function Home() {
               onChange={event => setRoomCode(event.target.value)}
               value={roomCode}
             />
-            <Button type="submit">Entrar na sala</Button>
+            <Button type="submit">
+              <img src={logInImg} alt="Entrar na sala" />
+              Entrar na sala
+            </Button>
           </form>
         </div>
       </main>
