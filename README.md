@@ -110,16 +110,15 @@ Design feito por [Rebecca Gonzalez](https://dribbble.com/rebeccagonzalez)
     - [x] Setup do projeto
     - [x] Funcionalidades
     - [ ] Screenshot das páginas
+    - [x] Adicionar favicon
  - [ ] Melhorar estilos
     - [ ] Alguns ajustes para tornar o estilo igual ao layout
-    - [ ] Adicionar media queries
-    - [ ] Deixar o layout responsivo para mobile, tablet e Desktop
     - [ ] CSS com Styled Components e Mobile First
     - [ ] Switch para alterar os themes
     - [ ] Theme dark na aplicação
+    - [ ] Save theme no localStorage
     - [ ] Criar modal de encerrar sala
     - [ ] Toast como notificação
-    - [ ] Save theme no localStorage
   - [ ] Funcionalidades
     - [ ] Adicionar funcionalidade PWA
     - [ ] Adicionar Autenticação com o Github
